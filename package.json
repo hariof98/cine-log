@@ -1,0 +1,24 @@
+{
+    "name": "react-sidequests",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "clear && rm -rf dist .parcel-cache && npx parcel src/app.html --no-cache",
+        "build": "parcel build src/app.html"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "Hari S",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "^2.11.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.28.1"
+    },
+    "devDependencies": {
+        "buffer": "^6.0.3",
+        "process": "^0.11.10"
+    }
+}
